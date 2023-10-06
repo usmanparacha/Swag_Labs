@@ -1,0 +1,18 @@
+# allure.yml
+# Allure configuration file
+
+allure:
+  version: 2.24.0 # Use the same version as in your dependencies
+
+# Results directory where Allure will store the report data
+resultsDirectory: result/allure-results
+
+# Report directory where the generated HTML report will be placed
+reportDirectory: result/allure-report
+
+# Report types to generate
+report:
+  clean: true
+  quiet: false
+  plugins:
+    - 'allure-docker'
